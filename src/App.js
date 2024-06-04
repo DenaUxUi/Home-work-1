@@ -1,16 +1,14 @@
-import "./App.css";
-import Header from "./components/Header";
-import Section from "./components/Section";
-import Footer from "./components/Footer";
-import Counter from "./components/Counter";
-
-
+import './App.scss';
+import Counter from './components/Counter';
+import Footer from './components/Footer';
+import Header from './components/Header'
+import Main from './components/Main';
 function App() {
   return (
     <div className="App">
       <Header />
       <Counter />
-      <Section />
+      <Main />
       <Footer />
     </div>
   );
